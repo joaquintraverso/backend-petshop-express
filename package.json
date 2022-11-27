@@ -1,0 +1,25 @@
+{
+  "name": "pet-shop-backend",
+  "version": "1.0.0",
+  "description": "Trabajo final para taller de integración",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Traverso, Joaquin.",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.32.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.8.0",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
